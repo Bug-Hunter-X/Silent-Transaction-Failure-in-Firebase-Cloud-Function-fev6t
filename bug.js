@@ -1,0 +1,1 @@
+The following code snippet demonstrates an uncommon error in Firebase related to handling transactions within a Cloud Function.  The issue arises when a transaction attempts to update a document that has been concurrently modified by another client.  This leads to the transaction failing silently, without providing a clear indication of the conflict.
